@@ -37,10 +37,10 @@ const UpcommingExperiencesCard = () => {
         </div>
         <div className="see-all">see all</div>
       </div>
-      <div className="d-flex mt-1 mb-3">
+      <div className="d-flex mt-1 mb-3 fc">
         {data.map((value, index) => {
           return (
-            <div key = {value.mentor} class="card mx-2 " style={{ width: "18rem" }}>
+            <div key = {value.mentor} class="card mx-2 mb-5" style={{ width: "18rem" }}>
               <img src={value.img} class="card-img-top rounded" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">{value.time}</h5>

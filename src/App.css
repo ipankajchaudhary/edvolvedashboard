@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .fc{
+    flex-direction: column;
+    /* margin-bottom: 5px !important; */
+    /* padding-bottom: 15px; */
+  }
+  .container{
+
+    margin-left : 3rem;
+  }
+
+}

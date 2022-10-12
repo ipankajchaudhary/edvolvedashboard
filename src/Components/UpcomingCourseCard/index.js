@@ -1,7 +1,7 @@
 import React from "react";
 // import data from "./data";
 import SingleCard from "./SingleCard";
-
+import "./style.css";
 
 const UpcommingCoursesCard = () => {
   const data = [
@@ -14,7 +14,6 @@ const UpcommingCoursesCard = () => {
     },
     {
       img: "../../../assets/uc2.png",
-
       time: "26 February 2021, 9am",
       description: "How does organic farming work, and why it's earth friendly",
       mentor: "Lavika Sundar",
@@ -37,7 +36,7 @@ const UpcommingCoursesCard = () => {
         </div>
         <div className="see-all">see all</div>
       </div>
-      <div className="d-flex mt-1 mb-3">
+      <div className="d-flex mt-1 mb-3 fc">
         {data.map((value, index) => {
           return (
             <div key = {value.mentor} class="card mx-2 " style={{ width: "18rem" }}>
